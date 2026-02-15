@@ -52,7 +52,7 @@ const CharacterSection: React.FC = () => {
                 <div className="space-y-2">
                   <span className="inline-block px-2 py-1 bg-stone-800 text-stone-400 text-xs font-serif">신분</span>
                   <p className="text-2xl text-stone-200 font-bold font-gungsuh">{MAIN_CHARACTER.role.split(' / ')[0]}</p>
-                  <p className="text-sm text-stone-500 font-serif">前 {MAIN_CHARACTER.role.split(' / ')[1]}</p>
+                  <p className="text-sm text-stone-500 font-serif">{MAIN_CHARACTER.role.split(' / ')[1]}</p>
                 </div>
                 <div className="text-right">
                   <p className="text-stone-400 font-serif text-lg">{MAIN_CHARACTER.age}세, {MAIN_CHARACTER.gender}</p>
