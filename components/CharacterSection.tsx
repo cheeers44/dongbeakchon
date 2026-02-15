@@ -22,7 +22,7 @@ const CharacterSection: React.FC = () => {
           >
             <div className="relative aspect-[3/4] overflow-hidden border-2 border-stone-800 p-2 bg-stone-900/50">
                <img 
-                src="https://i.postimg.cc/HnqKKrSp/peulopil.jpg" 
+                src="https://i.postimg.cc/gJWK0zgg/seohwi.jpg" 
                 alt="Seo Hwi" 
                 className="w-full h-full object-cover grayscale contrast-125 brightness-90"
                 style={{ filter: 'sepia(20%) contrast(110%)' }}
